@@ -1,0 +1,311 @@
+---
+title:  "Neurophisiological  measures of Electrode and Modulation Rate Discrimination in Cochlear Implants"
+author: "Jaime A. Undurraga, Lindsey Van Yper, David McAlpine, and Deborah Vickers"
+date: "`r Sys.Date()`"
+output: 
+ revealjs::revealjs_presentation:
+   theme: white
+   transition: fade
+   slide_level: 2
+   self_contained: false
+   reveal_plugins: ["zoom", "notes", "chalkboard"]
+   reveal_options:
+     chalkboard: 
+       toggleNotesButton: true
+     slideNumber: true
+     progress: true
+     previewLinks: true
+   includes:
+     in_header: header.html
+     before_body: doc_prefix.html
+     after_body: doc_suffix.html
+   css: presentation.css
+   # pandoc_args: [ "--output=index.html"] 
+# bibliography: ./library.bib  
+---
+
+```{r setup, include=T, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRUE, kfigr.link=TRUE, comment=NA)
+```
+
+# Introduction
+
+## Speech understanding  
+
+- Cochlear implant (CI) listeners often understand speech well in quiet but poorly in the presence of noise.
+
+- Commercial CIs convey both spectral (electrode position) and temporal cues (envelope modulations) by means of symmetric biphasic electrical pulses.
+
+- Poor performance can be partially explained by the **limited number of independent channels** (up to 7 or 8, e.g. Holmes et al., Friesen et al., 2001) but also due to **poor electrode-neuron interface** (Pfingst et al., 2008; Bierer and Faulkner, 2010).
+
+- Both, spectral and temporal cues are largely affected by current spread.
+
+
+## Spread of excitation
+
+![](./my_figures/AN-normal.png){width="60%"}  
+
+## Spread of excitation
+
+![](./my_figures/AN-normal-stim_david.png){width="60%"}  
+
+## Spread of excitation
+
+![](./my_figures/AN-normal-stim_debi_david.png){width="60%"}  
+
+
+## Spread of excitation and dead regions
+![](./my_figures/AN-partial-severe-degenerated_none_stimulation.png){width="60%"}
+
+## Spread of excitation and dead regions
+![](./my_figures/AN-partial-severe-degenerated_david.png){width="60%"}  
+
+
+## Spread of excitation and dead regions
+![](./my_figures/AN-partial-severe-degenerated_david_debi.png){width="60%"}  
+
+
+## Why is this important? 
+
+- Poor **electrode discrimination**, particularly in the apical and mid array, is associated with **poor speech perception** (Zhang et al. 2019, Busby et al., 2000; Dawson et al., 2000; Henry et al., 2000)
+
+<!-- - Strong relationship between eACC and behavioural electrode discrimination (Mathew et al. 2017, 2018). -->
+
+- Temporal cues, in particular, **modulation detection thresholds (MDTs)** are associated with consonant and vowel recognition (Fu, 2002), intonation recognition (Chatterjee et al. 2008), and to word recognition and **speech reception thresholds** (Won et al., 2011)
+
+- **Deactivation of electrodes in regions of poor electrode-neuron interface** is associeted to **improved performance** (eg. Zhou 2019, Saleh et al., 2013; Zwolan et al., 1997).
+
+- Strong correlation between MDT and current spread has been reported (Zhou et al. 2018)
+
+
+
+## Why Objective measures?
+
+- There is a need to identify, objectively, poor electrode-neuron interface channels to optimize performance in CI listeners.
+- Psychophysical measurements of discrimination depend on attention, cognition and linguistic ability.
+- Psychophysical measurements are limited to older children and adults.
+
+
+## Objective measures of spectral processing
+- Recently our group has been using the electrically-evoked acoustic change complex (eACC, e.g. Mathew et al. 2017, 2018) to assess independency of electrode pairs in CI listeners.
+- This is carried out by loudness balancing stimulating electrodes and measuring the eACC to a **change of electrode**. 
+
+
+![](./my_figures/artifacts_example_removal.png){ width="70%"}
+
+
+<!-- ## Objective measures of temporal processing -->
+
+<!-- - Electrically-evoked auditory steady-state responses (eASSR) (e.g. Luke et al. 2015) are an alternative. However, these are usually obatined either at lower stimulation rates or narrow electrode configurations to prevent artifact contamination.  -->
+
+<!-- - An alternative is to use the electrically-evoked acoustics change complex (eACC), with the caveat the all stimuli must be loudness balanced to prevent loudness cues. -->
+
+
+# Aims
+
+## General aims
+
+- To optimize objective measures to assess **channel independence** (or spectral resolution) in CI users.
+- To develop and assess objective measures of **temporal processing** (within channel) in CI users.
+
+
+
+# Experiment 1: Optimizing objective measures of electrode discrimination 
+
+## Methods
+
+<div class="column" style="float:left; width:70%; text-align: center">
+- In previous studies we measured eACC responses following a **standard block design** where two electrodes are stimulated sequentially followed by a silent gap (2 second per trial).
+- Here we used **continuous stimulation** where stimulating electrode was modulated at a rate of  1 Hz.
+- 5 CI users (Cochlear device).
+- Stimuli: symmetric pulse shapes; rate: 826 pps; pulse width: 43 us (7us IPG); monopolar mode.
+- 3 apical electrode pairs (14-15; 15-16; 16;17) 
+- EEG: 64 channels Biosemi system, fs: 16384 Hz
+- Artifact removal: denoising source separation (DSS) (de Cheveigne and Simon, 2008)
+</div>
+
+
+![](./my_figures/el_discrimination_continuous.png){width=30%}
+
+## Results - slow electrode modulation (1 Hz)
+
+![](./my_figures/ci_acc_time_domain.png){width=40%}
+
+- Clear responses obtained from all participants and all electrode pairs (5 minutes per pair)
+
+<!-- ## Results - slow fast electrode mudulation (6.8 Hz) -->
+
+<!-- ![](./my_figures/ci_el_disc_fast_time_domain.png) -->
+
+
+# Experiment 2: Envelope frequency discrimination in NH hearing
+
+## Loundess cues for AM pulse trains
+
+![](./my_figures/kreft_2009.png){width="60%"}
+
+(Kreft et al. 2009)
+
+
+
+## Methods
+
+- 6 NH 
+- Stimuli: 500 Hz tone presented on the right ear (65 dB SPL).
+- The envelope was partially or fully amplitude modulated. 
+- The modulation frequency was alternated between 20 and 32 Hz. The switching rate of the envelope frequency was either 1 Hz or 7 Hz.
+- Denoising source separation (DSS) 
+![](./my_figures/emr-fr-stimuli.png)
+
+
+
+## Results - NH  - ACC (1 Hz)
+
+![](./my_figures/nh_acc_time_domain_presentation.png)
+
+## Results - NH  - steady-state (6.4 Hz)
+
+![](./my_figures/nh_env_fast_time_freq_domain.png)
+
+
+## Results - NH
+
+|       NH  - ACC (1 Hz)                      | NH  - steady-state (6.4Hz)                    |
+:---------------------------------------------:|:---------------------------------------:
+|![](./my_figures/nh_fmd_slow.png){width=50%}               | ![](./my_figures/nh_fmd_fast.png){width=100%}|
+|modulation index effect:- t(5) = -4.3498, p-value = 0.007  | modulation index effect: F(1,28.9) = 16.513, p-value < 0.001|
+
+- Transient (ACC) and stady-state responses were reliably obtained.
+
+# Experiment 3: Envelope frequency discrimination to low-rate pulse-trains in CI
+
+## Methods
+
+- 5 CI participants 
+- CI users were simulated at 128 pps on electrode 16. 
+- The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
+- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
+- 2 pulse shapes were used (QPA and QPC)
+
+![](./my_figures/QPC_QPC.png){width=20%}
+
+![](./my_figures/emr-fr-stimuli.png){width=60%}
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_0.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_1.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_2.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_3.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_4.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_5.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_6.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_7.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_8.png) 
+
+## Artifact rejection
+
+![](./my_figures/S1_DL_interpolation_9.png) 
+
+
+
+
+
+## Results - CI  - eACC (1 Hz) QPA
+
+![](./my_figures/ci_env_dic_low-slow_time_domain_Anodic.png)
+
+
+## Results - CI  - eACC (1 Hz) QPC
+
+![](./my_figures/ci_env_dic_low-slow_time_domain_Cathodic.png)
+
+
+## 
+![](./my_figures/ci_polarity_fmd_slow.png){width=40%}
+
+Neither the effect of modulation depth nor polarity was significant.
+
+
+## Results - CI  - steady-state (6.8 Hz) QPA
+
+![](./my_figures/ci_env_fast_freq_domain_Anodic.png){width=80%}
+
+
+
+## Results - CI  - steady-state (6.8 Hz) QPC
+
+![](./my_figures/ci_env_fast_freq_domain_Cathodic.png){width=80%}
+
+- No reliable responses were observed to the 6.9 Hz frequency (switching rate).
+
+# Experiment 4: Envelope frequency discrimination to high-rate pulse-trains in CI users
+
+## Methods
+
+- 3 CI participants 
+- CI users were stimulated with 800 pps pulse-trains on electrode 16. 
+- The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
+- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
+- 1 pulse shape (QPC)
+
+
+## Results eACC (1Hz)
+
+![](./my_figures/ci_env_dic_slow_time_domain.png)
+
+
+## Results eACC (7Hz)
+
+![](./my_figures/ci_env_fast_time_freq_domain.png)
+
+## Summary
+
+- Clear and reliable responses can be obtained using a continuous eACC paradigm (1 Hz) to electrode or AM changes. 
+
+- NH listeners showed clear ACC and steady-state responses to AM frequency changes with a rapid response reduction at 50%. 
+
+- CI responses to lower pulse rates were more variable but still clear at both 50% and 100% modulation depth. 
+
+- All CI participants showed good responses for slow switching rates but not for the high switching rate. This may suggest adaptation effects.
+
+- eACC responses to 800 pps did not change in amplitude when the modulation depth was reduced from 100% and 50%.
+
+## ACKNOWLEDGEMENTS
+
+- Thank you and all participants.
+
+<br />
+<br />
+
+
+|MRC Senior Fellowship in Hearing Research (MR/S002537/1)|Australian Research Council (FL160100108) |
+:---------------------------------------------:|:---------------------------------------:
+|![](./png_logos/MRCLogo_RGB.png)|![](./png_logos/arc_logo.jpeg){width=80%}|
+  
+
+
