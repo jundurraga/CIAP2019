@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 - Commercial CIs convey both spectral (electrode position) and temporal cues (envelope modulations) by means of symmetric biphasic electrical pulses.
 
-- Poor performance can be partially explained by the **limited number of independent channels** (up to 7 or 8, e.g. Holmes et al., Friesen et al., 2001) but also due to **poor electrode-neuron interface** (Pfingst et al., 2008; Bierer and Faulkner, 2010).
+- Poor performance can be partially explained by the **limited number of independent channels** <font size="3"> (up to 7 or 8, e.g. Holmes et al., Friesen et al., 2001) </font> but also due to **poor electrode-neuron interface** <font size="3"> (Pfingst et al., 2008; Bierer and Faulkner, 2010). </font>
 
 - Both, spectral and temporal cues are largely affected by current spread.
 
@@ -67,15 +67,15 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Why is this important? 
 
-- Poor **electrode discrimination**, particularly in the apical and mid array, is associated with **poor speech perception** (Zhang et al. 2019, Busby et al., 2000; Dawson et al., 2000; Henry et al., 2000)
+- Poor **electrode discrimination**, particularly in the apical and mid array, is associated with **poor speech perception** <font size="3"> (Zhang et al. 2019, Busby et al., 2000; Dawson et al., 2000; Henry et al., 2000) </font>
 
 <!-- - Strong relationship between eACC and behavioural electrode discrimination (Mathew et al. 2017, 2018). -->
 
-- Temporal cues, in particular, **modulation detection thresholds (MDTs)** are associated with consonant and vowel recognition (Fu, 2002), intonation recognition (Chatterjee et al. 2008), and to word recognition and **speech reception thresholds** (Won et al., 2011)
+- Temporal cues, in particular, **modulation detection thresholds (MDTs)** are associated with consonant and vowel recognition (Fu, 2002), intonation recognition <font size="3"> (Chatterjee et al. 2008) </font>, and to word recognition and **speech reception thresholds** <font size="3"> (Won et al., 2011) </font>
 
-- **Deactivation of electrodes in regions of poor electrode-neuron interface** is associeted to **improved performance** (eg. Zhou 2019, Saleh et al., 2013; Zwolan et al., 1997).
+- **Deactivation of electrodes in regions of poor electrode-neuron interface** is associeted to **improved performance** <font size="3"> (eg. Zhou 2019, Saleh et al., 2013; Zwolan et al., 1997). </font>
 
-- Strong correlation between MDT and current spread has been reported (Zhou et al. 2018)
+- Strong correlation between MDT and current spread has been reported <font size="3"> (Zhou et al. 2018) </font>
 
 
 
@@ -87,7 +87,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 
 ## Objective measures of spectral processing
-- Recently our group has been using the electrically-evoked acoustic change complex (eACC, e.g. Mathew et al. 2017, 2018) to assess independency of electrode pairs in CI listeners.
+- Recently our group has been using the electrically-evoked acoustic change complex (eACC) <font size="3">(e.g. Mathew et al. 2017, 2018) </font> to assess independency of electrode pairs in CI listeners.
 - This is carried out by loudness balancing stimulating electrodes and measuring the eACC to a **change of electrode**. 
 
 
@@ -115,8 +115,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 ## Methods
 
 <div class="column" style="float:left; width:70%; text-align: center">
-- In previous studies we measured eACC responses following a **standard block design** where two electrodes are stimulated sequentially followed by a silent gap (2 second per trial).
-- Here we used **continuous stimulation** where stimulating electrode was modulated at a rate of  1 Hz.
+- **Continuous stimulation** where stimulating electrode was modulated at a rate of  1 Hz.
 - 5 CI users (Cochlear device).
 - Stimuli: symmetric pulse shapes; rate: 826 pps; pulse width: 43 us (7us IPG); monopolar mode.
 - 3 apical electrode pairs (14-15; 15-16; 16;17) 
