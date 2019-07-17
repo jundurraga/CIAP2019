@@ -1,7 +1,7 @@
 ---
 title:  "Neurophisiological  measures of Electrode and Modulation Rate Discrimination in Cochlear Implants"
-author: "Jaime A. Undurraga, Lindsey Van Yper, David McAlpine, and Deborah Vickers"
-date: "`r Sys.Date()`"
+author: <font size="5"> Jaime A. Undurraga, Lindsey Van Yper, David McAlpine, and Deborah Vickers </font>
+date: <font size="5">`r Sys.Date()` </font>
 output: 
  revealjs::revealjs_presentation:
    theme: white
@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 - Poor performance can be partially explained by the **limited number of independent channels** <font size="3"> (up to 7 or 8, e.g. Holmes et al., Friesen et al., 2001) </font> but also due to **poor electrode-neuron interface** <font size="3"> (Pfingst et al., 2008; Bierer and Faulkner, 2010). </font>
 
-- Both, spectral and temporal cues are largely affected by current spread.
+- Both, **spectral and temporal** cues are largely affected by current spread.
 
 
 ## Spread of excitation
@@ -51,18 +51,18 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Spread of excitation
 
-![](./my_figures/AN-normal-stim_debi_david.png){width="60%"}  
+![](./my_figures/AN-normal-debi_david.png){width="60%"}  
 
 
-## Spread of excitation and dead regions
+## Dead regions
 ![](./my_figures/AN-partial-severe-degenerated_none_stimulation.png){width="60%"}
 
-## Spread of excitation and dead regions
+## Dead regions
 ![](./my_figures/AN-partial-severe-degenerated_david.png){width="60%"}  
 
 
-## Spread of excitation and dead regions
-![](./my_figures/AN-partial-severe-degenerated_david_debi.png){width="60%"}  
+## Dead regions
+![](./my_figures/AN-partial-severe-degenerated_debi_david.png){width="60%"}  
 
 
 ## Why is this important? 
@@ -114,7 +114,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Methods
 
-<div class="column" style="float:left; width:70%; text-align: center">
+<div class="column" style="float:left; width:50%; text-align: center">
 - **Continuous stimulation** where stimulating electrode was modulated at a rate of  1 Hz.
 - 5 CI users (Cochlear device).
 - Stimuli: symmetric pulse shapes; rate: 826 pps; pulse width: 43 us (7us IPG); monopolar mode.
@@ -124,7 +124,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 </div>
 
 
-![](./my_figures/el_discrimination_continuous.png){width=30%}
+![](./my_figures/el_discrimination_continuous.png){width=45%}
 
 ## Results - slow electrode modulation (1 Hz)
 
