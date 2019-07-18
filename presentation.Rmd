@@ -303,7 +303,12 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Results - CI  - eACC (1 Hz)
 
-![](./my_figures/ci_env_dic_low-slow_time_domain_Anodic.png)
+<center>
+![](./my_figures/ci_env_dic_low-slow_time_domain_Anodic.png){width="60%"}
+</center>
+
+- Weak eACC responses, clear ASSR responses to the 2 AM frequencies.
+- 5/10 behavioural discrimination scores were significant
 
 
 <!-- ## Results - CI  - eACC (1 Hz) QPC -->
@@ -341,6 +346,8 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 </center>
 
 - Reliable responses were observed at high pulse rates.
+- 6/6 behavioural discrimination scores were significant
+
 <!-- ## Results eACC (7Hz) -->
 
 <!-- ![](./my_figures/ci_env_fast_time_freq_domain.png) -->
