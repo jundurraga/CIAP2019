@@ -43,27 +43,39 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Spread of excitation
 
+<center>
 ![](./my_figures/AN-normal.png){width="60%"}  
+</center>
 
 ## Spread of excitation
 
+<center>
 ![](./my_figures/AN-normal-stim_david.png){width="60%"}  
+</center>
 
 ## Spread of excitation
 
+<center>
 ![](./my_figures/AN-normal-debi_david.png){width="60%"}  
-
+</center>
 
 ## Dead regions
+
+<center>
 ![](./my_figures/AN-partial-severe-degenerated_none_stimulation.png){width="60%"}
+</center>
 
 ## Dead regions
+
+<center>
 ![](./my_figures/AN-partial-severe-degenerated_david.png){width="60%"}  
-
+</center>
 
 ## Dead regions
-![](./my_figures/AN-partial-severe-degenerated_debi_david.png){width="60%"}  
 
+<center>
+![](./my_figures/AN-partial-severe-degenerated_debi_david.png){width="60%"}  
+</center>
 
 ## Why is this important? 
 
@@ -71,7 +83,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 <!-- - Strong relationship between eACC and behavioural electrode discrimination (Mathew et al. 2017, 2018). -->
 
-- Temporal cues, in particular, **modulation detection thresholds (MDTs)** are associated with consonant and vowel recognition (Fu, 2002), intonation recognition <font size="3"> (Chatterjee et al. 2008) </font>, and to word recognition and **speech reception thresholds** <font size="3"> (Won et al., 2011) </font>
+- Temporal cues, in particular, **modulation detection thresholds (MDTs)** are associated with consonant and vowel recognition <font size="3">(Fu, 2002)</font>, intonation recognition <font size="3"> (Chatterjee et al. 2008) </font>, and to word recognition and **speech reception thresholds** <font size="3"> (Won et al., 2011) </font>
 
 - **Deactivation of electrodes in regions of poor electrode-neuron interface** is associeted to **improved performance** <font size="3"> (eg. Zhou 2019, Saleh et al., 2013; Zwolan et al., 1997). </font>
 
@@ -90,10 +102,13 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - Recently our group has been using the electrically-evoked acoustic change complex (eACC) <font size="3">(e.g. Mathew et al. 2017, 2018) </font> to assess independency of electrode pairs in CI listeners.
 - This is carried out by loudness balancing stimulating electrodes and measuring the eACC to a **change of electrode**. 
 
-
-![](./my_figures/artifacts_example_removal.png){ width="70%"}
-
-
+<div class="column" style="float:left; width:60%; text-align: center">
+![](./my_figures/artifacts_example_removal.png){ width="100%"}
+</div>
+<div class="column" style="float:right; width:40%; text-align: center">
+<br>
+- Strong relationship between the ACC and behavioural measures of electrode discrimination. <font size = "3"> (Mathew et al. 2017, 2018)</font>
+</div>
 <!-- ## Objective measures of temporal processing -->
 
 <!-- - Electrically-evoked auditory steady-state responses (eASSR) (e.g. Luke et al. 2015) are an alternative. However, these are usually obatined either at lower stimulation rates or narrow electrode configurations to prevent artifact contamination.  -->
@@ -114,23 +129,45 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Methods
 
-<div class="column" style="float:left; width:50%; text-align: center">
-- **Continuous stimulation** where stimulating electrode was modulated at a rate of  1 Hz.
+<div class="column" style="float:left; width:60%; text-align: center">
+**EEG**
+
+- **Continuous stimulation** at a rate of  1 Hz.
 - 5 CI users (Cochlear device).
-- Stimuli: symmetric pulse shapes; rate: 826 pps; pulse width: 43 us (7us IPG); monopolar mode.
+- Stimuli: 826 pps; pulse width: 43 us (7us IPG); monopolar mode.
 - 3 apical electrode pairs (14-15; 15-16; 16;17) 
 - EEG: 64 channels Biosemi system, fs: 16384 Hz
-- Artifact removal: denoising source separation (DSS) (de Cheveigne and Simon, 2008)
+- Artifact removal: denoising source separation (DSS) <font size="3"> (de Cheveigne and Simon, 2008) </font>
+
+**Behavioural**
+
+- 3I-2AFC discrimination task (400 ms; ISI 500 ms)
+
+</div>
+<br>
+<br>
+<br>
+<div class="column" style="float:right; width:40%; text-align: rigth">
+
+![](./my_figures/el_discrimination_continuous.png){width=100%}
 </div>
 
 
-![](./my_figures/el_discrimination_continuous.png){width=45%}
-
 ## Results - slow electrode modulation (1 Hz)
 
-![](./my_figures/ci_acc_time_domain.png){width=40%}
+<div class="column" style="float:left; width:40%; text-align: center">
+
+![](./my_figures/ci_acc_time_domain.png){width=100%}
+
+</div>
+
+<div class="column" style="float:right; width:60%; text-align: center">
+<br style = “line-height:10;”>
 
 - Clear responses obtained from all participants and all electrode pairs (5 minutes per pair)
+- Behavioural discrimination significant for all participants (proportion test).
+
+</div>
 
 <!-- ## Results - slow fast electrode mudulation (6.8 Hz) -->
 
@@ -138,13 +175,6 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 
 # Experiment 2: Envelope frequency discrimination in NH hearing
-
-## Loundess cues for AM pulse trains
-
-![](./my_figures/kreft_2009.png){width="60%"}
-
-(Kreft et al. 2009)
-
 
 
 ## Methods
@@ -154,9 +184,29 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - The envelope was partially or fully amplitude modulated. 
 - The modulation frequency was alternated between 20 and 32 Hz. The switching rate of the envelope frequency was either 1 Hz or 7 Hz.
 - Denoising source separation (DSS) 
-![](./my_figures/emr-fr-stimuli.png)
+
+<center>
+![](./my_figures/emr-fr-stimuli.png){width="50%"}
+</center>
+
+## Ludness across AM rates is stable
 
 
+<div class="column" style="float:left; width:43%; text-align: center">
+
+![](./my_figures/gransier_2016.png){width="100%"}
+
+<center> <font size="3"> (Gransier et al. 2016) </font></center>
+
+</div>
+
+<div class="column" style="float:right; width:57%; text-align: center">
+
+![](./my_figures/kreft_2009_loudness.png){width="100%"}
+
+<center><font size="3"> (Kreft et al. 2009) </font></center>
+
+</div>
 
 ## Results - NH  - ACC (1 Hz)
 
@@ -184,82 +234,94 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - CI users were simulated at 128 pps on electrode 16. 
 - The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
 - The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
-- 2 pulse shapes were used (QPA and QPC)
 
-![](./my_figures/QPC_QPC.png){width=20%}
-
-![](./my_figures/emr-fr-stimuli.png){width=60%}
+<!-- ![](./my_figures/QPC_QPC.png){width=20%} -->
+<center> ![](./my_figures/emr-fr-stimuli.png){width=60%} </center>
 
 ## Artifact rejection
-
+<center>
 ![](./my_figures/S1_DL_interpolation_0.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_1.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_2.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_3.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_4.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_5.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_6.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_7.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_8.png) 
+</center>
 
 ## Artifact rejection
 
+<center>
 ![](./my_figures/S1_DL_interpolation_9.png) 
+</center>
 
 
 
 
 
-## Results - CI  - eACC (1 Hz) QPA
+## Results - CI  - eACC (1 Hz)
 
 ![](./my_figures/ci_env_dic_low-slow_time_domain_Anodic.png)
 
 
-## Results - CI  - eACC (1 Hz) QPC
+<!-- ## Results - CI  - eACC (1 Hz) QPC -->
 
-![](./my_figures/ci_env_dic_low-slow_time_domain_Cathodic.png)
-
-
-## 
-![](./my_figures/ci_polarity_fmd_slow.png){width=40%}
-
-Neither the effect of modulation depth nor polarity was significant.
+<!-- ![](./my_figures/ci_env_dic_low-slow_time_domain_Cathodic.png) -->
 
 
-## Results - CI  - steady-state (6.8 Hz) QPA
+<!-- ##  -->
+<!-- ![](./my_figures/ci_polarity_fmd_slow.png){width=40%} -->
 
+<!-- Neither the effect of modulation depth nor polarity was significant. -->
+
+
+## Results - CI  - steady-state (6.8 Hz)
+
+<center>
 ![](./my_figures/ci_env_fast_freq_domain_Anodic.png){width=80%}
-
-
-
-## Results - CI  - steady-state (6.8 Hz) QPC
-
-![](./my_figures/ci_env_fast_freq_domain_Cathodic.png){width=80%}
-
+</center>
 - No reliable responses were observed to the 6.9 Hz frequency (switching rate).
 
 # Experiment 4: Envelope frequency discrimination to high-rate pulse-trains in CI users
@@ -270,17 +332,18 @@ Neither the effect of modulation depth nor polarity was significant.
 - CI users were stimulated with 800 pps pulse-trains on electrode 16. 
 - The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
 - The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
-- 1 pulse shape (QPC)
 
 
 ## Results eACC (1Hz)
 
-![](./my_figures/ci_env_dic_slow_time_domain.png)
+<center> 
+![](./my_figures/ci_env_dic_slow_time_domain.png){width="60%"}
+</center>
 
+- Reliable responses were observed at high pulse rates.
+<!-- ## Results eACC (7Hz) -->
 
-## Results eACC (7Hz)
-
-![](./my_figures/ci_env_fast_time_freq_domain.png)
+<!-- ![](./my_figures/ci_env_fast_time_freq_domain.png) -->
 
 ## Summary
 
@@ -299,12 +362,14 @@ Neither the effect of modulation depth nor polarity was significant.
 - Thank you and all participants.
 
 <br />
-<br />
+<center>
+![](./my_figures/debi.png){width="20%"}![](./my_figures/Lindsey_Van_Yper.jpg){width="20%"}![](./my_figures/david.png){width="20%"}
+</center>
 
 
 |MRC Senior Fellowship in Hearing Research (MR/S002537/1)|Australian Research Council (FL160100108) |
 :---------------------------------------------:|:---------------------------------------:
-|![](./png_logos/MRCLogo_RGB.png)|![](./png_logos/arc_logo.jpeg){width=80%}|
+|![](./png_logos/MRCLogo_RGB.png){width=40%}|![](./png_logos/arc_logo.jpeg){width=40%}|
   
 
 
