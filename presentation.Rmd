@@ -1,5 +1,5 @@
 ---
-title:  "Neurophisiological  measures of Electrode and Modulation Rate Discrimination in Cochlear Implants"
+title:  "Neurophysiological  Measures of Electrode and Modulation Rate Discrimination in Cochlear Implants"
 author: <font size="5"> Jaime A. Undurraga, Lindsey Van Yper, David McAlpine, and Deborah Vickers </font>
 date: <font size="5">`r Sys.Date()` </font>
 output: 
@@ -93,7 +93,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 ## Why Objective measures?
 
-- There is a need to identify, objectively, poor electrode-neuron interface channels to optimize performance in CI listeners.
+- There is a need to objectively identify poor electrode-neuron interface channels to optimize performance in CI listeners.
 - Psychophysical measurements of discrimination depend on attention, cognition and linguistic ability.
 - Psychophysical measurements are limited to older children and adults.
 
@@ -165,7 +165,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 <br style = “line-height:10;”>
 
 - Clear responses obtained from all participants and all electrode pairs (5 minutes per pair)
-- Behavioural discrimination significant for all participants (proportion test).
+- Behavioural discrimination significant for all participants.
 
 </div>
 
@@ -182,14 +182,14 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - 6 NH 
 - Stimuli: 500 Hz tone presented on the right ear (65 dB SPL).
 - The envelope was partially or fully amplitude modulated. 
-- The modulation frequency was alternated between 20 and 32 Hz. The switching rate of the envelope frequency was either 1 Hz or 7 Hz.
+- The modulation frequency was alternated between 20 and 32 Hz. The switching rate of the envelope frequency was either 1 Hz or 6.4 Hz.
 - Denoising source separation (DSS) 
 
 <center>
 ![](./my_figures/emr-fr-stimuli.png){width="50%"}
 </center>
 
-## Ludness across AM rates is stable
+## Loudness across AM rates is stable
 
 
 <div class="column" style="float:left; width:43%; text-align: center">
@@ -233,10 +233,11 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - 5 CI participants 
 - CI users were simulated at 128 pps on electrode 16. 
 - The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
-- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
+- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.8 Hz.
 
 <!-- ![](./my_figures/QPC_QPC.png){width=20%} -->
-<center> ![](./my_figures/emr-fr-stimuli.png){width=60%} </center>
+<center> ![](./my_figures/emr-fr-stimuli.png){width=45%} ![](./my_figures/low_rate_pulses.png){width=30%} </center>
+
 
 ## Artifact rejection
 <center>
@@ -327,7 +328,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 <center>
 ![](./my_figures/ci_env_fast_freq_domain_Anodic.png){width=80%}
 </center>
-- No reliable responses were observed to the 6.9 Hz frequency (switching rate).
+- No reliable responses were observed to the 6.8 Hz frequency (switching rate).
 
 # Experiment 4: Envelope frequency discrimination to high-rate pulse-trains in CI users
 
@@ -336,8 +337,9 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 - 3 CI participants 
 - CI users were stimulated with 800 pps pulse-trains on electrode 16. 
 - The envelope was amplitude modulated between threshold and comfortable level or 50% of the dynamic range. 
-- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.9 Hz.
-
+- The modulation frequency was alternated between 20 and 35 Hz. The rate of the modulation was either 1 Hz or 6.8 Hz.
+<center>
+<center> ![](./my_figures/emr-fr-stimuli.png){width=45%} ![](./my_figures/high_rate_pulses.png){width=30%} </center>
 
 ## Results eACC (1Hz)
 
@@ -347,6 +349,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, kfigr.prefix=TRU
 
 - Reliable responses were observed at high pulse rates.
 - 6/6 behavioural discrimination scores were significant
+
 
 <!-- ## Results eACC (7Hz) -->
 
